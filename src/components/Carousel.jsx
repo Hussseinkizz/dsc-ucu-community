@@ -9,22 +9,43 @@ const useStyles = makeStyles({
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
+    position: 'relative',
   },
   cardContent: {
     flexGrow: 1,
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    textAlign: 'center',
+    zIndex: 2,
+  },
+  cardImage: {
+    objectFit: 'cover',
+    height: '100%',
+    width: '100%',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    zIndex: 1,
   },
   button: {
     marginTop: 'auto',
   },
 });
 
-function App() {
+function Carousel() {
   const classes = useStyles();
 
   return (
     <Swiper>
       <SwiperSlide>
         <Card className={classes.card}>
+          <img
+            className={classes.cardImage}
+            src="https://picsum.photos/id/1002/800/400"
+            alt="slide 1"
+          />
           <CardContent className={classes.cardContent}>
             <Typography variant="h5" component="h2">
               Welcome to Swiper and Material UI
@@ -43,6 +64,11 @@ function App() {
       </SwiperSlide>
       <SwiperSlide>
         <Card className={classes.card}>
+          <img
+            className={classes.cardImage}
+            src="https://picsum.photos/id/1015/800/400"
+            alt="slide 2"
+          />
           <CardContent className={classes.cardContent}>
             <Typography variant="h5" component="h2">
               Slide 2
@@ -61,6 +87,11 @@ function App() {
       </SwiperSlide>
       <SwiperSlide>
         <Card className={classes.card}>
+          <img
+            className={classes.cardImage}
+            src="https://picsum.photos/id/1024/800/400"
+            alt="slide 3"
+          />
           <CardContent className={classes.cardContent}>
             <Typography variant="h5" component="h2">
               Slide 3
@@ -81,4 +112,4 @@ function App() {
   );
 }
 
-export default App;
+export default Carousel;

@@ -15,7 +15,7 @@ export default function Events() {
         <div className="sub">
           <h3>Developers' Webinar 2023</h3>
           <h4>April 5|Virtual</h4>
-          <img src="../../public/img/webnr.jpg" />
+          <img src="../assets/img/webnr.jpg" />
           <p>
             Online seminar that allows participanta from anywhere in the world
             to come together in a virtual classroom.
@@ -26,7 +26,7 @@ export default function Events() {
         <div className="sub">
           <h3>Artificial Intelligence</h3>
           <h4>April 7|Virtual</h4>
-          <img src="../../public/img/colab.jpg" />
+          <img src="../assets/img/colab.jpg" />
           <p>
             Communicate more Effectively with AI Business Stakeholders and
             Enhance team performance
@@ -37,7 +37,7 @@ export default function Events() {
         <div className="sub">
           <h3>Virtual Reality</h3>
           <h4>May 11|Virtual</h4>
-          <img src="../../public/img/ai.jpg" />
+          <img src="../assets/img/ai.jpg" />
           <p>
             Simulated experience that employs pose tracking and 3D near-eye
             displays to give the user immersive feel of virtual world.
@@ -50,7 +50,7 @@ export default function Events() {
         <div className="sub">
           <h3>Google for Startups Accelerator UK</h3>
           <h4>Applications are open till May 20</h4>
-          <img src="../../public/img/associate.jpg" />
+          <img src="../assets/img/associate.jpg" />
           <p>
             Great opportunity for supporting technology startups that are in the
             feild of AI and Ml
@@ -61,7 +61,7 @@ export default function Events() {
         <div className="sub">
           <h3>Women In Tech</h3>
           <h4>June 7|Virtual</h4>
-          <img src="../../public/img/network.jpg" />
+          <img src="../assets/img/network.jpg" />
           <p>
             Empowering young ladies to join the Tech canvas.Come show your
             potential.
@@ -72,7 +72,7 @@ export default function Events() {
         <div className="sub">
           <h3>Developer Seminar</h3>
           <h4>Sept 11|Physical</h4>
-          <img src="../../public/img/meetup.jpg" />
+          <img src="../assets/img/meetup.jpg" />
           <p>
             Are you a developer? Come be part of us, share ideas, gain skills
             and get opportunities.

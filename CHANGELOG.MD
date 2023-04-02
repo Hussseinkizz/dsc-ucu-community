@@ -29,3 +29,9 @@
 - Added: carousel about to style it
 - Pending Home UI
 - Fixed: Pages showing empty!
+- Move img folder back to assests to vite compilation waring that tey should actually be there!
+- Implemented Hero Carousel Slider
+- Todo: More Code Merging,
+- Todo: CRUD operations with Json Server
+- Todo: User Authentication
+- Todo: Deployment
