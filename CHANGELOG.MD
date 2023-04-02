@@ -37,3 +37,4 @@
 - Todo: Deployment
 - Done: Setup React Hands To Handle App & User Auth State
 - Done: Added User Auth State Persistance Even On Page Reloads
+- Done: Added useJsonServer Hook To Simplify Working With Json Server
