@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Mutebi",
+      "author": "Ibrah"
+    },
+    {
+      "id": 2,
+      "title": "Ibrahim",
+      "author": "Ibrah"
+    },
+    {
+      "id": 3,
+      "title": "Tamuzadde",
+      "author": "Ibrah"
+    },
+    {
+      "id": 4,
+      "title": "Wampamba",
+      "author": "Ibrah"
+    },
+    {
+      "id": 5,
+      "title": "Kaabwa",
+      "author": "Ibrah"
+    },
+    {
+      "id": 6,
+      "title": "generation",
+      "author": "Ibrah"
+    },
+    {
+      "id": 20,
+      "title": "Kakeeto",
+      "author": "Ibrahimuwa"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  },
+  "isLoggedIn": {
+    "data": "false"
+  },
+  "users": [
+    {
+      "fullName": "1bbbb",
+      "email": "2@gmail.com",
+      "password": "water",
+      "phone": "4000"
+    },
+    {
+      "fullName": "1bbbb",
+      "email": "2@gmail.com",
+      "password": "water",
+      "phone": "4000"
+    },
+    {
+      "fullName": "cccbbb",
+      "email": "2@gmail.com",
+      "password": "water",
+      "phone": "4000"
+    }
+  ]
+}

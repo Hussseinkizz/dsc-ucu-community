@@ -9,6 +9,14 @@
 - App Routing & Navigation: [React Router](https://reactrouter.com/en/main/start/tutorial)
 - Icons: [React Icons](https://react-icons.github.io/react-icons/)
 
+### Others
+
+- Open Gp
+- Chart Js
+- React Circular Progressbar
+- React Roouter Dom
+- React Hands
+- Sass
 
 ## Notes
 

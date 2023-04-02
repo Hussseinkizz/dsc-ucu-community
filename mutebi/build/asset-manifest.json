@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6375551.css",
+    "main.js": "/static/js/main.5e9a8863.js",
+    "static/media/bg.jpg": "/static/media/bg.12c5eaf050e0e6553a30.jpg",
+    "static/media/contact.jpg": "/static/media/contact.c64e53aef24952eb16c9.jpg",
+    "static/media/security.jpg": "/static/media/security.577b46032967afe8e1ae.jpg",
+    "static/media/webDevelopment.jpg": "/static/media/webDevelopment.64df6f405733aee1fe05.jpg",
+    "static/media/mutebiPhoto.jpg": "/static/media/mutebiPhoto.c7771b69f5c70dbd9e0c.jpg",
+    "static/media/customersupport.jpg": "/static/media/customersupport.65900e8e427cc10b239c.jpg",
+    "static/media/contactperson.JPG": "/static/media/contactperson.1993768e9ae112af47bb.JPG",
+    "static/media/aboutusmobile.jpg": "/static/media/aboutusmobile.13535a46e1b17aac938f.jpg",
+    "static/media/aboutus2.jpg": "/static/media/aboutus2.7ee7e406d8e6b33f94f8.jpg",
+    "static/media/softwarecycle.png": "/static/media/softwarecycle.89d7eea3b94311025f1c.png",
+    "static/media/refurbished laptops.JPG": "/static/media/refurbished laptops.e038cb6b47644fd3e831.JPG",
+    "static/media/trainingstudents.jpg": "/static/media/trainingstudents.17aae331bd9a24b19d8c.jpg",
+    "static/media/appDevelopment.JPG": "/static/media/appDevelopment.38e0e2ac24c29ab3ab2e.JPG",
+    "static/media/web-design.png": "/static/media/web-design.aa012265b9aec0c4bfff.png",
+    "static/media/graphic-icon.png": "/static/media/graphic-icon.2c4e99fbe2b9d9651cdd.png",
+    "static/media/express.JPG": "/static/media/express.22ad98c3e460c4d21375.JPG",
+    "static/media/graphicdesignimage.JPG": "/static/media/graphicdesignimage.3d267506f69145a2b944.JPG",
+    "static/media/sevoimage.JPG": "/static/media/sevoimage.3694d05eabcb3f0f13c6.JPG",
+    "static/media/solarMedia.png": "/static/media/solarMedia.5527b5fe0b93c3adbdf0.png",
+    "static/media/react.JPG": "/static/media/react.21a7fdcdc17e7c9c6b4c.JPG",
+    "static/media/node.JPG": "/static/media/node.64b5b4b708f812ab071e.JPG",
+    "static/media/javascript.JPG": "/static/media/javascript.d57629fe3e3a203907a9.JPG",
+    "static/media/refurbished.PNG": "/static/media/refurbished.df9420362aac7d54c83c.PNG",
+    "static/media/mongo.JPG": "/static/media/mongo.8a059083e0df689eedb4.JPG",
+    "index.html": "/index.html",
+    "main.d6375551.css.map": "/static/css/main.d6375551.css.map",
+    "main.5e9a8863.js.map": "/static/js/main.5e9a8863.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6375551.css",
+    "static/js/main.5e9a8863.js"
+  ]
+}

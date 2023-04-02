@@ -12,11 +12,20 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.15",
+    "chart.js": "^4.2.1",
     "json-server": "^0.17.3",
+    "openpgp": "^5.7.0",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0"
+    "react-hands": "^1.0.5",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.10.0",
+    "sass": "^1.60.0",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
