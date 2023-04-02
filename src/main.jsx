@@ -9,13 +9,12 @@ const initialState = { isLoggedIn: false, user: null };
 
 // action reducers to change the state
 const actions = {
-  login: (state, { payload }) => ({
+  setUser: (state, { payload }) => ({
     ...state,
     isLoggedIn: true,
     user: payload,
   }),
-  logout: (state) => ({ ...state, isLoggedIn: false, user: null }),
-  setUser: (state, { payload }) => ({ ...state, user: payload }),
+  unSetUser: (state) => ({ ...state, isLoggedIn: false, user: null }),
 };
 
 const { StoreProvider } = reactState(initialState, actions);

@@ -36,3 +36,4 @@
 - Todo: User Authentication
 - Todo: Deployment
 - Done: Setup React Hands To Handle App & User Auth State
+- Done: Added User Auth State Persistance Even On Page Reloads
