@@ -10,18 +10,22 @@
 
 ## Changes, K
 
-- @M, Delete Node Modules
-- @K, Install React Hands
-- rename all main pages to jsx
-- move all files to sensible folders
-- @S, Rename MyForm to RegisterForEvent
-- change events to be a default export
-- move form to components
-- render form
-- add form css (basic)
-- remove empty submit handler attribute value
-- add placeholder handlers
+- @M, Delete: Node Modules
+- @K, Install: React Hands
+- rename: all main pages to jsx
+- move: all files to sensible folders
+- @S, Rename: MyForm to RegisterForEvent
+- change: events to be a default export
+- move; form to components
+- render: form
+- add: form css (basic)
+- remove: empty submit handler attribute value
+- add: placeholder handlers
 - @Jy, Fix imports, merge unsuccessful
 - @J, rename App.css to Auth.css
-- rename Home to Auth.jsx
-- change line 1 to let declaration in User.js
+- rename: Home to Auth.jsx
+- change: line 1 to let declaration in User.js
+
+- Added: carousel about to style it
+- Pending Home UI
+- Fixed: Pages showing empty!

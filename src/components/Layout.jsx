@@ -26,8 +26,8 @@ const navItems = [
   'Signin',
 ];
 
-function Layout(props) {
-  const { window } = props;
+function Layout({ children }) {
+  const { window } = children;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -104,7 +104,7 @@ function Layout(props) {
       </Box>
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
-        <Container maxWidth="sm">{props.Children}</Container>
+        <Container maxWidth="sm">{children}</Container>
       </Box>
     </Box>
   );
