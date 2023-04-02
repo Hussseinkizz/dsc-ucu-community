@@ -2,12 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import CssBaseline from '@mui/material/CssBaseline';
+import { reactState } from 'react-hands';
+
+// define intial states for auth state and user
+const initialState = { isLoggedIn: false, user: null };
+
+// action reducers to change the state
+const actions = {
+  login: (state, { payload }) => ({
+    ...state,
+    isLoggedIn: true,
+    user: payload,
+  }),
+  logout: (state) => ({ ...state, isLoggedIn: false, user: null }),
+  setUser: (state, { payload }) => ({ ...state, user: payload }),
+};
+
+const { StoreProvider } = reactState(initialState, actions);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <React.Fragment>
       <CssBaseline />
-      <App />
+      <StoreProvider>
+        <App />
+      </StoreProvider>
     </React.Fragment>
   </React.StrictMode>
 );

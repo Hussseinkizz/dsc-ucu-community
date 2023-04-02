@@ -1,12 +1,15 @@
 import React, { useEffect, useState} from 'react';
 import axios from 'axios';
-import { useNavigate, Li } from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 
 import useAuth from '../../hooks/useAuth';
+import Auth from '../pages/Auth';
 
 function Login(props) {
+  const [email, setEmail]=useState('')
+  const[password, setPassword] =useState('')
   console.log(props)
-  const { verifyAuth, auth } = useAuth();
+  const { verifyAuth, auth, setAuth } = useAuth();
   const [viewForm, setViewForm]= useState(true)
   const navigate = useNavigate();
    useEffect(() => {
@@ -18,21 +21,43 @@ function Login(props) {
 
   const login = async (e) => {
     e.preventDefault();
-    const email = e.target.email.value;
-    const password = e.target.password.value;
-    try {
-      await axios.post(`http://localhost:3001/api/auth/login`, {
-        email,
-        password,
-      })
-      await verifyAuth();
-      navigate('/');
+
+    console.log("mukene")
+         navigate('/');
+         setAuth(!auth)
+
+         fetch(`http://localhost:3000/users?=${email}`)
+         .then((res)=>{
+          return res.json()
+         }).then((data)=>{
+           console.log(data)
+          // console.log(foundPerson)
+          // console.log(data)
+         })
+    
+ 
+
+    // fetch(`http://localhost:3000/users/email`)
+    // .then((res)=>{
+    //   res.json()
+    // }).then((data)=>{
+    //   console.log(data)
+    // }).catch((err)=>{
+    //   console.log(err.message)
+    // })
+    // try {
+    //   await axios.post(`http://localhost:3000/users`, {
+    //     email,
+    //     password,
+    //   })
+    //   await verifyAuth();
+    //   navigate('/');
     
     
-    } catch (err) {
-      console.log(err);
-      verifyAuth();
-    }
+    // } catch (err) {
+    //   console.log(err);
+    //   verifyAuth();
+    // }
     
   };
   const routing = async()=>{
@@ -56,8 +81,18 @@ function Login(props) {
               </a>
             </p>
           </div>
-          <form className="mt-8 space-y-6" action="#" method="POST">
-            <input type="hidden" name="remember" defaultValue="true" />
+          <form 
+          onSubmit={login}
+          
+          className="mt-8 space-y-6" action="#" method="POST">
+            {/* <input type="email" 
+            value={email}
+            onChange={e=>setEmail(e.target.value)}
+            name="remember" defaultValue="true" /> */}
+
+
+
+
             <div className="rounded-md shadow-sm -space-y-px">
               <div>
                 <label htmlFor="email-address" className="sr-only">
@@ -69,6 +104,8 @@ function Login(props) {
                   type="email"
                   autoComplete="email"
                   required
+                  value={email}
+                  onChange={(e)=>setEmail(e.target.value)}
                   className="appearance-none rounded-none relative block
                   w-full px-3 py-2 border border-gray-300
                   placeholder-gray-500 text-gray-900 rounded-t-md
@@ -85,6 +122,8 @@ function Login(props) {
                   id="password"
                   name="password"
                   type="password"
+                  value={password}
+                  onChange={e=>setPassword(e.target.value)}
                   autoComplete="current-password"
                   required
                   className="appearance-none rounded-none relative block

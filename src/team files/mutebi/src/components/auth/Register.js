@@ -25,7 +25,10 @@ function Register(props) {
     //   phone: e.target.phone.value,
     // };
     try {
-      await axios.post(`http://localhost:3000/users`, people);
+      await axios.post(`http://localhost:3000/users`, people)
+      .then((data)=>{
+        console.log(data.data)
+      });
       
     } catch (err) {
       console.log(err);

@@ -35,3 +35,4 @@
 - Todo: CRUD operations with Json Server
 - Todo: User Authentication
 - Todo: Deployment
+- Done: Setup React Hands To Handle App & User Auth State
