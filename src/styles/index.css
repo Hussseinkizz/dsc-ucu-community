@@ -21,6 +21,15 @@ body {
   min-height: 100vh;
 }
 
+/* Re-usable Styles */
+.is-flex {
+  gap: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*========== CUSTOM SCROLL BAR ==========*/
 html {
   --text-color-light: hsl(var(--hue-color), 8%, 65%);

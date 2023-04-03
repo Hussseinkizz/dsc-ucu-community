@@ -7,7 +7,7 @@ const Users = () => {
     email: '',
   });
   const { data, create, update, remove } = useJsonServer(
-    'http://localhost:3001/users'
+    'http://localhost:3000/users'
   );
 
   const handleInputChange = (event) => {

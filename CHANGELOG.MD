@@ -38,3 +38,5 @@
 - Done: Setup React Hands To Handle App & User Auth State
 - Done: Added User Auth State Persistance Even On Page Reloads
 - Done: Added useJsonServer Hook To Simplify Working With Json Server
+- Done: Set useJsonServer In Sample Login To Demo User Creation In DB
+- Done: Installed Axios And Nanoid

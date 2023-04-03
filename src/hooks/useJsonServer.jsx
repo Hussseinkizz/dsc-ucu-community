@@ -48,7 +48,16 @@ const useJsonServer = (resourceUrl) => {
     }
   };
 
-  return { data, create, update, remove };
+  const filter = async (property, query) => {
+    try {
+      const response = await axios.get(`${resourceUrl}/?${property}=${query}`);
+      setData(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  return { data, create, update, remove, filter };
 };
 
 export default useJsonServer;
