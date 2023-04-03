@@ -62,6 +62,13 @@ const SampleLogin = () => {
     console.log(data);
   }
 
+  function getAdminsOnly() {
+    // filter can do any filter in form of where a = b, eg
+    // filter where role = admin
+    filter('role', 'admin');
+    console.log(data);
+  }
+
   // get localStorage value on page load
   useEffect(() => {
     const storedUser = getLocalState('user');
